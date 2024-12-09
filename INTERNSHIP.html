@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship at JPNS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fef9f9;
+      background-color: #f1add7;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      background-color: #be4ad5;
+      animation: moveHeader 3s infinite alternate;
+    }
+
+    @keyframes moveHeader {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(10px); }
+    }
+
+    .sub-header {
+      margin-top: 10px;
+    }
+
+    .sub-header ul {
+      list-style: list-disc pl-8 mb-4;
+      padding: 0;
+      text-align: center;
+    }
+
+    .sub-header li {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      width: 80%;
+      max-width: 900px;
+    }
+
+    .content .box {
+      width: 45%;
+      padding-top: 45%; 
+      background: #e6e6e6;
+      border: 2px dashed #aaa;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden; 
+    }
+
+    .content .box img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+
+    .content .box p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1rem;
+      color: #333;
+      text-align: center;
+      visibility: hidden; 
+    }
+
+    .content .label {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+      background: #d81b60;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-align: center;
+    }
+
+    .button:hover {
+      background: #ad1457;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      background-color: #d81b60;
+      color: white;
+      padding: 10px 0; 
+      width: 100%;
+      margin-top: auto;
+      position: relative;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: flex-start; 
+      margin-top: 20px; 
+      padding: 0 20px;
+    }
+
+    .button-container a {
+      text-decoration: none;
+    }
+
+    .button-container button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+      background-color: #d81b60;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button-container button:hover {
+      background-color: #ad1457;
+    }
+  </style>
+</head>
+<body>
+  <header>INTERNSHIP at JPNS</header>
+
+  <div class="sub-header">
+    <ul>
+      <li>Jabatan Pendidikan Negeri Selangor</li>
+      <li>22 July 2024 - 13 September 2024</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="box">
+      <img src="filerecord.jpg" alt="File and Record">
+    </div>
+    <div class="box">
+      <img src="medical.jpg" alt="Medical">
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="label">Unit File and Record</div>
+    <div class="label">Unit Medical & Hemodialysis</div>
+  </div>
+
+  <div class="navigation">
+    <div class="button-container">
+        <a href="HIKING.html">
+            <button>Back</button>
+        </a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; IMD318 - CopyRight Reserved 2024. Anisah Yahya
+  </footer>
+</body>
+</html>
+
+
+

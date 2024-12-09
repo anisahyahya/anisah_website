@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f1add7; 
+            position: relative; 
+        }
+        .timeline {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #d81b60;
+        }
+        .timeline-item {
+            margin: 20px 0;
+            background-color: #ffffff;
+            padding: 15px;
+            border: 2px solid #dedede;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .timeline-item img {
+            max-width: 150px;
+            margin-right: 15px;
+            border-radius: 10px;
+        }
+        .content {
+            flex: 1;
+        }
+        .year {
+            font-weight: bold;
+            color: #333;
+            margin-left: 20px;
+        }
+        .description {
+            margin: 5px 0;
+            margin-left: 20px;
+        }
+        .year:before, .description:before {
+            color: #007BFF;
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 30px; 
+        }
+        .button-container a {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #d81b60;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button-container a:hover {
+            background-color: #ad1457;
+        }
+ 
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .next-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 1rem;
+            background-color: #d81b60;
+            color: white;
+            width: 100%;
+            padding: 10px 0; /* Adjust padding to be uniform */
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Study Journey</h1>
+    <div class="timeline">
+        <div class="timeline-item">
+            <img src="pasti.jpg" alt="Pasti Al-Mawardi">
+            <div class="content">
+                <p class="year">2008 - 2010</p>
+                <p class="description">Pasti Al-Mawardi</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <img src="serinh.jpg" alt="Sekolah Rendah Islam Integrasi">
+            <div class="content">
+                <p class="year">2011 - 2016</p>
+                <p class="description">Sekolah Rendah Islam Integrasi Nurul Hidayah</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <img src="samsmel.jpg" alt="SAM Sg Merab Luar">
+            <div class="content">
+                <p class="year">2017 - 2021</p>
+                <p class="description">SAM Sg Merab Luar</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <img src="uitm.jpg" alt="UiTM Kampus Rembau">
+            <div class="content">
+                <p class="year">2022 - 2025</p>
+                <p class="description">UiTM Kampus Rembau</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" class="back-button">
+        <span>Back</span>
+    </a>
+    <a href="ACHIEVEMENT.html" class="next-button">
+        <span>Next</span>
+    </a>
+
+    <footer>
+        &copy; IMD318 - CopyRight Reserved 2024-Anisah Yahya
+    </footer>
+</body>
+</html>

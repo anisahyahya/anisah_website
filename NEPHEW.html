@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Babies</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #faa8de, #fad0c4);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 20px 0;
+      animation: colorChange 5s infinite;
+    }
+
+    @keyframes colorChange {
+      0% { color: #ff9a9e; }
+      25% { color: #fad0c4; }
+      50% { color: #fbc2eb; }
+      75% { color: #a18cd1; }
+      100% { color: #ff9a9e; }
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .image-box {
+      width: 100%;
+      padding-top: 100%; 
+      background: #fff;
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+      position: relative;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .image-box img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image-box span {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1rem;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+      background: #ff6f61;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #ff3d3d;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 1em;
+      background-color: #d81b60;
+      color: #ffffff;
+      padding: 1px;
+      width: 100%;
+      position: relative;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>My Babies</header>
+  
+  <div class="image-grid">
+    <div class="image-box">
+      <img src="zayaan.jpg" alt="Zayaan">
+      <span>Zayaan</span>
+    </div>
+    <div class="image-box">
+      <img src="naufal.jpg" alt="Naufal">
+      <span>Naufal</span>
+    </div>
+    <div class="image-box">
+      <img src="nuha.jpg" alt="Nuha">
+      <span>Nuha</span>
+    </div>
+    <div class="image-box">
+      <img src="faris.jpg" alt="Faris">
+      <span>Faris</span>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button class="button"><a href="FAMILY.html">Back</button></a>
+    <button class="button"><a href="BIGFAMILY.html">Next</button></a>
+  </div>
+
+  <footer>
+    <p>&copy; IMD318 CopyRight Reserved 2024 - Anisah Yahya</p>
+  </footer>
+</body>
+</html>

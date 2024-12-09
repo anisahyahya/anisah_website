@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Experience with Classmates</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://i.pinimg.com/736x/42/dd/27/42dd274cf2ad5cea46ab481b220013bd.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        marquee {
+            display: block;
+            margin: 20px auto;
+            font-size: 3em;
+            font-weight: bold;
+            color: #ff69b4;
+            text-shadow: 2px 2px 5px #ff6ec7, -2px -2px 5px #ffa6d5;
+            text-align: center;
+            background: linear-gradient(to right, #f5b5f5, #fdf1e0);
+            padding: 10px;
+            border-radius: 10px;
+            width: 80%;
+            border: 3px solid #ff85c0;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .media-section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-box {
+            width: 200px;  
+            height: 200px;  
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f7f7f7;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-box {
+            width: 300px;
+            height: auto;
+            border: 3px solid #4caf50;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f7f7f7;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-box img, .video-box video {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-container {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #4caf50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-container button:hover {
+            background-color: #45a049;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="slide">BEST EXPERIENCE WITH CLASSMATES</marquee>
+    <main>
+        <div class="media-section">
+            <div class="image-box"><img src="hiking1.jpg" alt="Hiking1 Image"></div>
+            <div class="image-box"><img src="hiking2.jpg" alt="Hiking2 Image"></div>
+            
+            <div class="video-box">
+                <video controls width="300">
+                    <source src="videohiking.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="image-box"><img src="hiking3.jpg" alt="Hiking3 Image"></div>
+            <div class="image-box"><img src="hiking4.jpg" alt="Hiking4 Image"></div>
+        </div>
+        <footer>24/10/2024 - Me and my classmates hiking at Bukit Batu Putih, Port Dickson!!</footer>
+    </main>
+    <div class="button-container">
+        <a href="index.html">
+            <button>Back</button>
+        </a>
+        <a href="INTERNSHIP.html">
+            <button>Next</button>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Big Family</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+			background: url('https://i.pinimg.com/736x/c0/eb/68/c0eb68ce0c7a5170c6b2799ab48d3f96.jpg')no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            overflow: hidden; 
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80%; 
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #880e4f;
+            margin-top: 10px;
+        }
+
+        .video-box {
+            margin-top: 20px;
+            background: #f1add7;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: 45%; 
+        }
+
+        .video-box video {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container button:hover {
+            background-color: #f1add7;
+        }
+		
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Big Family</h1>
+        <div class="subtitle">
+            <p>During Eid Al-Mubarak 2023</p>
+        </div>
+        
+        <div class="video-box">
+            <video controls>
+                <source src="videobigfamily.mp4" type="video/mp4">
+            </video>
+        </div>
+
+		<div class="Back-button">
+        <a href="NEPHEW.html">Back</a>
+    </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+	
+</body>
+</html>
+
